@@ -1,0 +1,38 @@
+.navbar {
+  background-color: rgb(46, 44, 44);
+  color: white;
+  height: 12vh;
+  /* font-size: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & img {
+    width: 6rem;
+    border-radius: 70%;
+  }
+}
+.main-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  /* padding-inline-start: 20px; */
+}
+.navbar-ul {
+  color: white;
+  font-size: 18px;
+  & li {
+    display: inline-block;
+    color: white;
+    & a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+  }
+}

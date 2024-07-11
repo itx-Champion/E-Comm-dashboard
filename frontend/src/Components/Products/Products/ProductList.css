@@ -1,0 +1,83 @@
+.product {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  /* gap: 0.6rem; */
+  height: 80vh;
+  flex-direction: column;
+  margin-top: 20px;
+  & span {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+#sr {
+  text-align: center;
+}
+
+.product ul {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product ul li {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 5px;
+  width: 130px;
+  text-align: center;
+}
+.product ul.innerlist {
+  border: 0px;
+  /* margin: -5px; */
+  & li {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+.buttonop {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  height: fit-content;
+  background-color: rgb(205, 210, 216);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.buttonop:hover {
+  color: white;
+  background-color: black;
+}
+.searchBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 14.2rem;
+  margin-bottom: 20px;
+  gap: 1rem;
+  & label {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  & input {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+  }
+}
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#nofound{
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}

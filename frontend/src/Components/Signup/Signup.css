@@ -1,0 +1,51 @@
+.signup {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  height: 80vh;
+  flex-direction: column;
+  margin-top: 60px;
+  & span {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  & .inputhandle {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    & input {
+      padding: 8px;
+      border: 1px solid rgb(72, 65, 65);
+      outline: none;
+      border-radius: 5px;
+      font-size: 17px;
+    }
+  }
+}
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.allinputhandle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+.button {
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 7rem;
+  background-color: rgb(205, 210, 216);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}
